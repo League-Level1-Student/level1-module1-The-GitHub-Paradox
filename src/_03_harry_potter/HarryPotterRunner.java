@@ -6,6 +6,6 @@ public class HarryPotterRunner {
 	new HarryPotter().makeInvisible(true);
 	new HarryPotter().spyOnSnape();
 	new HarryPotter().makeInvisible(false);
-	new HarryPotter().castSpell("Expelliarmus");
+	new HarryPotter().castSpell("Stupefy");
 }
 }

@@ -13,9 +13,17 @@ public class Popcorn_Maker {
 		String s2 = JOptionPane.showInputDialog("Eat the " + s + " flavoured popcorn?");
 		if(s2.equals("Yes")) {
 			System.out.println("Eating Popcorn...");
+			
 		}
 		else {
 			System.out.println("You decided not to eat the popcorn.");
+		}
+		String s3 = JOptionPane.showInputDialog("Eat the leftovers?");
+		if(s3.equals("Yes")) {
+			System.out.println("You choked on a popcorn seed and died. Rip.");
+		}
+		else {
+			System.out.println("You tossed out the popcorn bag.");
 		}
 	}
 }

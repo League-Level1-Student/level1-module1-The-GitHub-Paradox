@@ -12,6 +12,7 @@ import javax.swing.JTextField;
 public class BinaryTranslator implements ActionListener {
 public void popup() {
 	JFrame f = new JFrame();
+	f.setName("Convert 8 bits of Binary to ASCII");
 	JPanel p = new JPanel();
 	JTextField t = new JTextField(20);
 	Button b = new Button();

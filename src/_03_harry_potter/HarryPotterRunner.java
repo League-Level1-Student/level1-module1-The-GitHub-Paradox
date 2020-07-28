@@ -3,9 +3,10 @@ package _03_harry_potter;
 
 public class HarryPotterRunner {
 	public static void main(String[] args) {
-	new HarryPotter().makeInvisible(true);
-	new HarryPotter().spyOnSnape();
-	new HarryPotter().makeInvisible(false);
-	new HarryPotter().castSpell("Stupefy");
+	HarryPotter Pot = new HarryPotter();
+	Pot.makeInvisible(true);
+	Pot.spyOnSnape();
+	Pot.makeInvisible(false);
+	Pot.castSpell("Stupefy");
 }
 }
